@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    >
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:stretchColumns="*"
+        >
+
+
+        <TableRow
+            android:background="@color/colorPrimary"
+            >
+            <TextView
+                android:text="Name"
+                android:padding="10dp"
+                android:textColor="@color/colorWhite"
+                />
+            <TextView
+                android:textColor="@color/colorWhite"
+                android:text="Age"
+                android:padding="10dp"/>
+            <TextView
+                android:textColor="@color/colorWhite"
+                android:text="Email"
+                android:padding="10dp"/>
+        </TableRow>
+
+        <View
+            android:layout_height="2dip"
+            android:background="#FF909090" />
+
+        <TableRow>
+            <TextView
+                android:text="Gordon"
+                android:padding="10dp"
+                />
+            <TextView
+                android:gravity="right"
+                android:text="22"
+                android:padding="10dp"/>
+            <TextView
+                android:text="juicesyko@gmail.com"
+                android:padding="10dp"/>
+        </TableRow>
+
+        <View
+            android:layout_height="2dip"
+            android:background="#FF909090" />
+        <TableRow>
+            <TextView
+                android:text="Gordon"
+                android:padding="10dp"
+                />
+            <TextView
+                android:gravity="right"
+                android:text="22"
+                android:padding="10dp"/>
+            <TextView
+                android:text="juicesyko@gmail.com"
+                android:padding="10dp"/>
+        </TableRow>
+
+        <View
+            android:layout_height="2dip"
+            android:background="#FF909090" />
+        <TableRow>
+            <TextView
+                android:text="Gordon"
+                android:padding="10dp"
+                />
+            <TextView
+                android:gravity="right"
+                android:text="22"
+                android:padding="10dp"/>
+            <TextView
+                android:text="juicesyko@gmail.com"
+                android:padding="10dp"/>
+        </TableRow>
+        <View
+            android:layout_height="2dip"
+            android:background="#FF909090" />
+
+        <TableRow>
+            <TextView
+                android:text="Gordon"
+                android:padding="10dp"
+                />
+            <TextView
+                android:gravity="right"
+                android:text="22"
+                android:padding="10dp"/>
+            <TextView
+                android:text="juicesyko@gmail.com"
+                android:padding="10dp"/>
+        </TableRow>
+
+        <View
+            android:layout_height="2dip"
+            android:background="#FF909090" />
+        <TableRow>
+            <TextView
+                android:text="Gordon"
+                android:padding="10dp"
+                />
+            <TextView
+                android:gravity="right"
+                android:text="22"
+                android:padding="10dp"/>
+            <TextView
+                android:text="juicesyko@gmail.com"
+                android:padding="10dp"/>
+        </TableRow>
+
+        <View
+            android:layout_height="2dip"
+            android:background="#FF909090" />
+
+    </TableLayout>
+
+</LinearLayout>

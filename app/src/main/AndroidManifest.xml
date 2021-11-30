@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.atlanticbakery">
+
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true"
+        tools:targetApi="n">
+        <activity android:name=".Test">
+
+        </activity>
+        <activity android:name=".MainActivity" />
+        <activity android:name=".API_IssueProductionItems" />
+        <activity android:name=".API_Nav2" />
+        <activity android:name=".API_ReceivedSAP" />
+        <activity android:name=".API_SelectedItems" />
+        <activity android:name=".API_ItemInfo" />
+        <activity android:name=".APIReceived" />
+        <activity android:name=".API_SalesLogs" />
+        <activity android:name=".ShoppingCart" /> <!-- <activity android:name=".AvailableItems" /> -->
+        <activity android:name=".API_InventoryConfirmation" />
+        <activity android:name=".OfflineList" />
+        <activity android:name=".OfflineItems" />
+        <activity android:name=".CutOff" />
+        <activity android:name=".SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".API_SalesLogsItems" />
+        <activity android:name=".IPAddress" />
+
+        <uses-library
+            android:name="org.apache.http.legacy"
+            android:required="false" />
+    </application>
+
+</manifest>
